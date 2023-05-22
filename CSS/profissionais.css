@@ -1,0 +1,30 @@
+.profissionais{
+    background-color: var(--cor-fundo-section-profissional);
+    display: flex;
+    margin-top: 128px;
+    
+}
+.img__profissional{
+    width: 400px;
+    height: auto;
+}
+.hgruop__profissional{
+    width: 600px;
+    margin: auto;
+}
+.hgruop__profissional > h1{
+    margin-bottom: 4rem;
+}
+@media (max-width: 900px){
+    .profissionais{
+        flex-direction: column;
+    }
+    .img__profissional{
+        width: 300px;
+        align-self: center;
+    }
+    .hgruop__profissional{
+        width: auto;
+        padding:8px;
+    }
+}
